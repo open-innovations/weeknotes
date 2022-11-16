@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
-  branch: master
+  repo: open-innovations/weeknotes
+  branch: main
+
 
 media_folder: statics
 
@@ -13,10 +15,10 @@ collections:
     extension: md
     create: true
     delete: false
-    identifier_field: week_ending
+    identifier_field: date
     fields:
       - label: Week Ending
-        name: week_ending
+        name: date
         widget: datetime
         default: ''
         format: YYYY-MM-DD
