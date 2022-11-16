@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: statics
+
+collections:
+  - label: Weeknotes
+    label_singular: Weeknote
+    name: weeknotes
+    description: List of weeknotes
+    folder: weeknotes
+    extension: md
+    create: true
+    delete: false
+    identifier_field: week_ending
+    fields:
+      - label: Week Ending
+        name: week_ending
+        widget: datetime
+        default: ''
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+      - label: Content
+        name: body
+        widget: markdown
+        required: false
