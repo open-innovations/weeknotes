@@ -10,7 +10,7 @@ const site = lume();
 site.use(base_path());
 site.use(metas());
 site.use(date());
-site.use(netlify_cms());
+if (Deno.env.get('RUN_CMS') !== undefined) site.use(netlify_cms());
 site.use(terser());
 
 export default site;
