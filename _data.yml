@@ -1,0 +1,7 @@
+layout: template/base.njk
+
+# Automatically adds meta and social tags 
+# See https://lume.land/plugins/metas/
+metas:
+  site: Open Innovations weeknotes
+  title: Open Innovations weeknotes
