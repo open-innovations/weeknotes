@@ -21,7 +21,8 @@ collections:
       - label: Title
         name: title
         widget: string
-        optional: true
+        # Not making this mandatory... Default to stringigied date
+        required: false
       - label: Week Ending
         name: date
         widget: datetime
@@ -29,6 +30,10 @@ collections:
         format: YYYY-MM-DD
         date_format: YYYY-MM-DD
         time_format: false
+      - label: Draft
+        name: draft
+        default: true
+        widget: boolean
       - label: Content
         name: body
         widget: markdown
