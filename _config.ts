@@ -13,4 +13,6 @@ site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
 site.use(postcss());
 
+['CNAME', '.nojekyll'].forEach(f => site.copy(f));
+
 export default site;
