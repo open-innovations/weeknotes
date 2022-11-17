@@ -10,7 +10,11 @@ const site = lume({
 });
 
 site.use(base_path());
-site.use(metas());
+site.use(metas({
+  defaultPageData: {
+    title: 'title', // Use the `date` value as fallback.
+  },
+}));
 site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
 site.use(postcss());
