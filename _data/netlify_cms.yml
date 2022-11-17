@@ -4,8 +4,7 @@ backend:
   branch: main
   base_url: https://auth.open-innovations.org # Path to ext auth provider
 
-
-media_folder: statics
+media_folder: assets/uploads
 
 collections:
   - label: Weeknotes

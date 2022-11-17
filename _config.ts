@@ -5,7 +5,9 @@ import date from "lume/plugins/date.ts";
 import netlify_cms from "lume/plugins/netlify_cms.ts";
 import postcss from "lume/plugins/postcss.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://weeknotes.open-innovations.org"),
+});
 
 site.use(base_path());
 site.use(metas());
