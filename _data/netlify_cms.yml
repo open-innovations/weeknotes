@@ -18,6 +18,10 @@ collections:
     delete: false
     identifier_field: date
     fields:
+      - label: Title
+        name: title
+        widget: string
+        optional: true
       - label: Week Ending
         name: date
         widget: datetime
