@@ -1,7 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   repo: open-innovations/weeknotes
   branch: main
+  base_url: https://auth.open-innovations.org # Path to ext auth provider
 
 
 media_folder: statics
