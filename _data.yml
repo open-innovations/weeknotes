@@ -4,4 +4,3 @@ layout: template/base.njk
 # See https://lume.land/plugins/metas/
 metas:
   site: Open Innovations weeknotes
-  title: Open Innovations weeknotes
