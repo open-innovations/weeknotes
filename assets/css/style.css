@@ -61,7 +61,7 @@ html, body {
 	color: #333;
 	line-height: 1.44em;
 }
-h1,h2,h3,h4 { font-family: Poppins; line-height: 1em; }
+h1,h2,h3,h4, .title { font-family: Poppins; line-height: 1em; }
 h1, .title { font-size: 1.7em; font-weight: 600; }
 h2 { font-size: 1.4em; font-weight: 600; margin-bottom: 1em; }
 h3 { font-size: 1.2em; margin-bottom: 1em; }
