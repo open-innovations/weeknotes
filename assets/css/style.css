@@ -115,7 +115,7 @@ a.button:hover, button:hover, button:focus, a.button:focus { background-color: #
 .doublepadded { padding: 2em; }
 .tallpadded { padding-top: 2em; padding-bottom: 2em; }
 section { padding: 2em 0; }
-
+ul > li + *, ul > li > ul { margin-top: 0.5em; } 
 
 .elsewhere { float: right; margin-top: 0; }
 .elsewhere li { display: inline-block; margin-left: 0.5em; }
