@@ -5,9 +5,11 @@ import date from "lume/plugins/date.ts";
 import netlify_cms from "lume/plugins/netlify_cms.ts";
 import postcss from "lume/plugins/postcss.ts";
 
+const search = { returnPageData: true };
+
 const site = lume({
   location: new URL("https://weeknotes.open-innovations.org"),
-});
+}, { search });
 
 site.use(base_path());
 site.use(metas({

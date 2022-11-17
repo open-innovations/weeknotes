@@ -1,0 +1,8 @@
+---
+title: Index of weeknotes
+---
+<ol class="no-marker">
+{% for page in search.pages('weeknote', 'date=desc') %}
+  <li><a href='{{ page.url }}'>{{ page.date | date('DATE') }}</a></li>
+{% endfor %}
+</ol>
