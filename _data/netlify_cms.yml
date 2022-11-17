@@ -17,6 +17,19 @@ collections:
     create: true
     delete: false
     identifier_field: date
+    preview_path: /{{slug}}/
+    summary: "{{slug}} - {{title}}"
+    sortable_fields: ['date', 'draft']
+    view_groups:
+      - label: Drafts
+        field: draft
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+      - label: Not Drafts
+        field: draft
+        pattern: false
     fields:
       - label: Title
         name: title
