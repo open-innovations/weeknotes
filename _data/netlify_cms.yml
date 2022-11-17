@@ -5,6 +5,7 @@ backend:
   base_url: https://auth.open-innovations.org # Path to ext auth provider
 
 media_folder: assets/uploads
+logo_url: https://open-innovations.org/resources/images/logos/oi-square.svg
 
 collections:
   - label: Weeknotes
