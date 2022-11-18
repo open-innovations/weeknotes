@@ -1,0 +1,8 @@
+<rss version="2.0">
+  <channel>
+    <title>{{ metas.site }}</title>
+    <link>{{ '/' | url(true) }}</link>
+    <description>{{ metas.description }}</description>
+  </channel>
+  {{- content | safe -}}
+</rss>
