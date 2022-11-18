@@ -7,6 +7,9 @@ import pagefind from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 
+// PostCSS Plugins
+import cssnano from "npm:cssnano@^5";
+
 const search = { returnPageData: true };
 
 const site = lume({
@@ -22,7 +25,12 @@ site.use(metas({
 site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
 site.use(pagefind());
-site.use(postcss());
+site.use(postcss({
+  plugins: [
+    cssnano({ preset: 'default' }),
+  ],
+  keepDefaultPlugins: true,
+}));
 site.use(sitemap());
 
 site.ignore('README.md');
