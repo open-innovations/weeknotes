@@ -16,7 +16,7 @@ collections:
     extension: md
     create: true
     delete: false
-    identifier_field: date
+    identifier_field: week_ending
     preview_path: /{{slug}}/
     summary: "{{slug}} - {{title}}"
     sortable_fields: ['date', 'draft']
@@ -37,7 +37,7 @@ collections:
         # Not making this mandatory... Default to stringigied date
         required: false
       - label: Week Ending
-        name: date
+        name: week_ending
         widget: datetime
         default: ''
         format: YYYY-MM-DD
