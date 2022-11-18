@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ metas.site }}</title>
+  <link href="{{ '/' | url(true) }}"/>
+  <updated>{{ buildDate | date('DATETIME') }}</updated>
+  <author>
+    <name>Open Innovations</name>
+  </author>
+  <id>{{ id }}</id>
+  {{ content | safe }}
+</feed>

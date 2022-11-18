@@ -1,0 +1,14 @@
+---
+layout: template/atom.njk
+url: /atom.xml
+id: https://weeknotes.open-innovations.org/
+---
+{% for entry in search.pages('weeknote') -%}
+<entry>
+  <title>{{ entry.title or 'Weeknotes for ' + entry.date | date('HUMAN_DATE') }}</title>
+  <link rel="alternate" href="{{ entry.url | url(true) }}"/>
+  <id>{{ entry.url | url(true) }}</id>
+  <updated>{{ entry.date | date('DATETIME') }}</updated>
+  <content>{{ entry.content | md | safe }}</content>
+</entry>
+{%- endfor %}
