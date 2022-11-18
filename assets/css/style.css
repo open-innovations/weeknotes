@@ -1,6 +1,7 @@
+/* These are imported by the PostCSS processor. Source is in the `_includes/css` folder */
 @import 'css/reset.css';
 @import 'css/general.css';
-
+@import 'css/search.css';
 
 @font-face {
 	font-family: 'Poppins';
@@ -51,19 +52,23 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+:root {
+  --oi-main-fontstack: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  --oi-title-fontstack: Poppins;
+}
 html, body {
 	padding: 0px;
 	margin: 0px;
 	min-height: 100%!important;
 	height: 100%!important;
 	background-color: #ffffff;
-	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-family: var(--oi-main-fontstack);
   /* https://css-tricks.com/accessible-font-sizing-explained/#aa-avoid-setting-a-base-font-size */
 	font-size: 100%;
 	color: #333;
 	line-height: 1.44em;
 }
-h1,h2,h3,h4, .title { font-family: Poppins; line-height: 1em; }
+h1,h2,h3,h4, .title { font-family: var(--oi-title-fontstack); line-height: 1em; }
 h1, .title { font-size: 1.7em; font-weight: 600; }
 h2 { font-size: 1.4em; font-weight: 600; margin-bottom: 1em; }
 h3 { font-size: 1.2em; margin-bottom: 1em; }

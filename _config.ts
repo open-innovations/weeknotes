@@ -1,8 +1,9 @@
 import lume from "lume/mod.ts";
 import base_path from "lume/plugins/base_path.ts";
-import metas from "lume/plugins/metas.ts";
 import date from "lume/plugins/date.ts";
+import metas from "lume/plugins/metas.ts";
 import netlify_cms from "lume/plugins/netlify_cms.ts";
+import pagefind from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const search = { returnPageData: true };
@@ -19,6 +20,7 @@ site.use(metas({
 }));
 site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
+site.use(pagefind());
 site.use(postcss());
 
 site.ignore('README.md');

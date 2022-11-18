@@ -1,3 +1,3 @@
-export const url = (page) => '/' + page.src.slug + '/';
+export const url = (page) => '/week/' + page.src.slug + '/';
 
 export const tags = ['weeknote'];
