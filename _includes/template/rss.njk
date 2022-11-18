@@ -3,6 +3,6 @@
     <title>{{ metas.site }}</title>
     <link>{{ '/' | url(true) }}</link>
     <description>{{ metas.description }}</description>
+    {{ content | safe }}
   </channel>
-  {{- content | safe -}}
 </rss>

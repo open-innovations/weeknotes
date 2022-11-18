@@ -2,7 +2,7 @@
 url: /feed.xml
 layout: template/rss.njk
 ---
-{% for note in search.pages('weeknote', 'date=asc') %}
+{% for note in search.pages('weeknote', 'date=asc') -%}
   <item>
     <title>
       {{ note.title or note.date | date('HUMAN_DATE') }}
@@ -10,9 +10,9 @@ layout: template/rss.njk
     <link>{{ note.url | url(true) }}</link>
     {# <description>
       How do Americans get ready to work with Russians aboard the International Space Station? They take a crash course in culture, language and protocol at Russia's <a href="http://howe.iki.rssi.ru/GCTC/gctc_e.htm">Star City</a>.
-    </description> #}
+    </description> -#}
     <pubDate>
       {{ note.date | date('ATOM')}}
     </pubDate>
   </item>
-{% endfor %}
+{%- endfor %}
