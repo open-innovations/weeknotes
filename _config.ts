@@ -5,6 +5,7 @@ import metas from "lume/plugins/metas.ts";
 import netlify_cms from "lume/plugins/netlify_cms.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
+import sitemap from "lume/plugins/sitemap.ts";
 
 const search = { returnPageData: true };
 
@@ -22,6 +23,7 @@ site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
 site.use(pagefind());
 site.use(postcss());
+site.use(sitemap());
 
 site.ignore('README.md');
 ['CNAME', '.nojekyll'].forEach(f => site.copy(f));
