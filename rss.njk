@@ -1,5 +1,5 @@
 ---
-url: /feed.xml
+url: /rss.xml
 layout: template/rss.njk
 ---
 {% for note in search.pages('weeknote', 'date=asc') -%}
@@ -12,7 +12,7 @@ layout: template/rss.njk
       How do Americans get ready to work with Russians aboard the International Space Station? They take a crash course in culture, language and protocol at Russia's <a href="http://howe.iki.rssi.ru/GCTC/gctc_e.htm">Star City</a>.
     </description> -#}
     <pubDate>
-      {{ note.date | date('ATOM')}}
+      {{ note.date | date('PPpp')}}
     </pubDate>
   </item>
 {%- endfor %}
