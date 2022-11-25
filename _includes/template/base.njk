@@ -17,7 +17,11 @@
 
 	<div class="b6-bg">
 		<div class="holder padded tallpadded">
-		<h1>{{ title }}</h1>
+		<h1>{{ title }}
+    {%- if week_ending -%}
+      , {{ week_ending | date('HUMAN_DATE') }}
+    {%- endif -%}
+    </h1>
 		{{ content | safe }}
 		</div>
 	</div>
