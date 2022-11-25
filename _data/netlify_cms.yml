@@ -8,10 +8,11 @@ media_folder: assets/uploads
 logo_url: https://open-innovations.org/resources/images/logos/oi-square.svg
 
 collections:
-  - label: Weeknotes
+  - label: Draft Weeknotes
+    filter: {field: "draft", value: true}
     label_singular: Weeknote
     name: weeknotes
-    description: List of weeknotes
+    description: List of unpublished weeknotes
     folder: weeknotes
     extension: md
     create: true
@@ -19,17 +20,42 @@ collections:
     identifier_field: week_ending
     preview_path: /{{slug}}/
     summary: "{{slug}} - {{title}}"
-    sortable_fields: ['date', 'draft']
-    view_groups:
-      - label: Drafts
-        field: draft
-    view_filters:
-      - label: Drafts
-        field: draft
-        pattern: true
-      - label: Not Drafts
-        field: draft
-        pattern: false
+    sortable_fields: ['week_ending']
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        # Not making this mandatory... Default to stringigied date
+        required: false
+      - label: Week Ending
+        name: week_ending
+        widget: datetime
+        default: ''
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+      - label: Draft
+        name: draft
+        default: true
+        widget: boolean
+      - label: Content
+        name: body
+        widget: markdown
+        required: false
+  - label: Published Weeknotes
+    hide: true
+    filter: {field: "draft", value: false}
+    label_singular: Weeknote
+    name: published_weeknotes
+    description: List of published weeknotes
+    folder: weeknotes
+    extension: md
+    create: false
+    delete: false
+    identifier_field: week_ending
+    preview_path: /{{slug}}/
+    summary: "{{slug}} - {{title}}"
+    sortable_fields: ['week_ending']
     fields:
       - label: Title
         name: title
