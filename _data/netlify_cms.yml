@@ -11,14 +11,14 @@ collections:
   - label: Draft Weeknotes
     filter: {field: "draft", value: true}
     label_singular: Weeknote
-    name: weeknotes
+    name: draft_weeknotes
     description: List of unpublished weeknotes
     folder: weeknotes
     extension: md
     create: true
-    delete: false
+    delete: true
     identifier_field: week_ending
-    preview_path: /{{slug}}/
+    # preview_path: /week/{{slug}}/
     summary: "{{slug}} - {{title}}"
     sortable_fields: ['week_ending']
     fields:
@@ -43,7 +43,6 @@ collections:
         widget: markdown
         required: false
   - label: Published Weeknotes
-    hide: true
     filter: {field: "draft", value: false}
     label_singular: Weeknote
     name: published_weeknotes
@@ -53,7 +52,7 @@ collections:
     create: false
     delete: false
     identifier_field: week_ending
-    preview_path: /{{slug}}/
+    preview_path: /week/{{slug}}/
     summary: "{{slug}} - {{title}}"
     sortable_fields: ['week_ending']
     fields:
@@ -64,15 +63,14 @@ collections:
         required: false
       - label: Week Ending
         name: week_ending
-        widget: datetime
+        widget: hidden
         default: ''
         format: YYYY-MM-DD
         date_format: YYYY-MM-DD
         time_format: false
       - label: Draft
         name: draft
-        default: true
-        widget: boolean
+        widget: hidden
       - label: Content
         name: body
         widget: markdown
