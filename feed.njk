@@ -9,6 +9,6 @@ id: https://weeknotes.open-innovations.org/
   <link rel="alternate" href="{{ entry.url | url(true) }}"/>
   <id>{{ entry.url | url(true) }}</id>
   <updated>{{ entry.date | date('DATETIME') }}</updated>
-  <content>{{ entry.content | md | safe }}</content>
+  <content type="html">{{ entry.content | md }}</content>
 </entry>
 {%- endfor %}
