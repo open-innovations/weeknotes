@@ -5,10 +5,15 @@ id: https://weeknotes.open-innovations.org/
 ---
 {% for entry in search.pages('weeknote') -%}
 <entry>
-  <title>{{ entry.title or 'Weeknotes for ' + entry.date | date('HUMAN_DATE') }}</title>
-  <link rel="alternate" href="{{ entry.url | url(true) }}"/>
   <id>{{ entry.url | url(true) }}</id>
+  <title>{{ entry.title or 'Weeknotes for ' + entry.date | date('HUMAN_DATE') }}</title>
   <updated>{{ entry.date | date('DATETIME') }}</updated>
   <content type="html">{{ entry.content | md }}</content>
+  <link rel="alternate" href="{{ entry.url | url(true) }}"/>
+  <category term="weeknotes"/>
+  <published>{{ entry.week_ending | date('DATETIME') }}</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations {{ entry.week_ending | date('yyyy') }}&lt;/a&gt;
+  </rights>
 </entry>
 {%- endfor %}
