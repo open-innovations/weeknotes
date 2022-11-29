@@ -1,18 +1,18 @@
 ---
 url: /rss.xml
 layout: template/rss.njk
+id: https://weeknotes.open-innovations.org/
 ---
-{% for note in search.pages('weeknote', 'date=asc') -%}
+{% for entry in search.pages('weeknote', 'date=asc') -%}
   <item>
     <title>
-      {{ note.title or note.date | date('HUMAN_DATE') }}
+      {{ entry.title or entry.date | date('HUMAN_DATE') }}
     </title>
-    <link>{{ note.url | url(true) }}</link>
-    {# <description>
-      How do Americans get ready to work with Russians aboard the International Space Station? They take a crash course in culture, language and protocol at Russia's <a href="http://howe.iki.rssi.ru/GCTC/gctc_e.htm">Star City</a>.
-    </description> -#}
-    <pubDate>
-      {{ note.date | date('PPpp')}}
-    </pubDate>
+    <link>{{ entry.url | url(true) }}</link>
+	<guid isPermaLink="true">{{ entry.url | url(true) }}</guid>
+    <description><![CDATA[
+      {{ entry.content | md | safe}}
+    ]]></description>
+    <pubDate>{{ entry.week_ending | date('iii, dd MMM yyyy HH:mm:ss XXXXX') }}</pubDate>
   </item>
 {%- endfor %}

@@ -1,8 +1,15 @@
-<rss version="2.0">
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ metas.site }}</title>
     <link>{{ '/' | url(true) }}</link>
     <description>{{ metas.description }}</description>
+    <lastBuildDate>{{ buildDate | date('iii, dd MMM yyyy HH:mm:ss XXXXX') }}</lastBuildDate>
+    <pubDate>{{ buildDate | date('iii, dd MMM yyyy HH:mm:ss XXXXX') }}</pubDate>
+    <generator>Deno/Lume</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en-gb</language>
+    <atom:link href="{{ '/' | url(true) }}rss.xml" rel="self" type="application/rss+xml" />
     {{ content | safe }}
   </channel>
 </rss>
