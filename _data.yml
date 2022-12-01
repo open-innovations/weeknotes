@@ -1,4 +1,5 @@
 layout: template/base.njk
+date: Git Last Modified
 
 # Automatically adds meta and social tags 
 # See https://lume.land/plugins/metas/
