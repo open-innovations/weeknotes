@@ -13,6 +13,7 @@ import cssnano from "npm:cssnano@^5";
 const search = { returnPageData: true };
 
 const site = lume({
+  src: './src',
   location: new URL("https://weeknotes.open-innovations.org"),
 }, { search });
 
@@ -33,7 +34,6 @@ site.use(postcss({
 }));
 site.use(sitemap());
 
-site.ignore('README.md');
 ['CNAME', '.nojekyll'].forEach(f => site.copy(f));
 
 export default site;

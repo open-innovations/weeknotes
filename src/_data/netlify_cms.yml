@@ -13,7 +13,7 @@ collections:
     label_singular: Weeknote
     name: draft_weeknotes
     description: List of unpublished weeknotes
-    folder: weeknotes
+    folder: "src/weeknotes"
     extension: md
     create: true
     delete: true
@@ -47,7 +47,7 @@ collections:
     label_singular: Weeknote
     name: published_weeknotes
     description: List of published weeknotes
-    folder: weeknotes
+    folder: "src/weeknotes"
     extension: md
     create: false
     delete: false
