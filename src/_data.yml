@@ -5,6 +5,7 @@ date: Git Last Modified
 # See https://lume.land/plugins/metas/
 metas:
   site: Open Innovations weeknotes
+  title: "=title"
   description: Weeknotes from the team at Open Innovates. Find out what we have been up to.
   image: https://open-innovations.org/resources/images/logos/oi-square.png
   twitter: openinnovates
