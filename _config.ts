@@ -18,11 +18,7 @@ const site = lume({
 }, { search });
 
 site.use(base_path());
-site.use(metas({
-  defaultPageData: {
-    title: 'title', // Use the `date` value as fallback.
-  },
-}));
+site.use(metas());
 site.use(date());
 if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
 site.use(pagefind());
