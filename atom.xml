@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Open Innovations weeknotes</title>
+  <link href="https://weeknotes.open-innovations.org/"/>
+  <updated>2023-01-12 16:08:34</updated>
+  <author>
+    <name>Open Innovations</name>
+  </author>
+  <id>https://weeknotes.open-innovations.org/</id>
+  <entry>
+  <id>https://weeknotes.open-innovations.org/week/2022-11-18/</id>
+  <title>Weeknotes #1</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;The Open Innovations team is having a go at writing weeknotes. This is our first attempt to see how it works out for our team, and what form they should take. Here are some principles we&#39;re considering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep them short and link out&lt;/li&gt;
+&lt;li&gt;Whole team contribution, single editor with a new editor each week&lt;/li&gt;
+&lt;li&gt;Publish on the web and share via our regular channels&lt;/li&gt;
+&lt;li&gt;Rough and ready but published is better than polished and late&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It turns out to have been a busy week! We&#39;ve been delivering projects...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Taz and Dan have been progressing work on the &lt;a href=&quot;https://open-innovations.github.io/leeds-digital-festival-data/&quot;&gt;Leeds Digital Festival microsite&lt;/a&gt;. It&#39;s nearly there!!! We&#39;re reusing the stack that we&#39;ve developed for the Leeds 2023 and Youth Futures Foundation codebases on this project. This gives us another point of reference for what it makes sense to make re-usable, and what is specific to the other projects.&lt;/li&gt;
+&lt;li&gt;Michelle and Giles have been discussing LEEDS 2023 data flows and their evaluation framework. This builds on and documents our work on the &lt;a href=&quot;https://data.leeds2023.co.uk&quot;&gt;LEEDS 2023 data microsite&lt;/a&gt;. We also had a brilliant meeting with the LEEDS 2023 accessibility partners about making our visualisations more accessible.&lt;/li&gt;
+&lt;li&gt;We have helped publish &lt;a href=&quot;https://datamillnorth.org/publisher/leeds-2023&quot;&gt;more open data&lt;/a&gt; on behalf of LEEDS 2023, including data about volunteering and their opening event ticket ballot.&lt;/li&gt;
+&lt;li&gt;Looking forward to next year, we&#39;re excited to be talking about becoming data partners to some really great organisations that are aligned &lt;a href=&quot;https://open-innovations.org/about/&quot;&gt;with our values&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;ve been cataloguing things and generally building our capabilites...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We&#39;ve noticed a lot of Warm Spaces Finders out there. Stuart has started cataloguing them in a &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/&quot;&gt;&amp;quot;Warm Spaces Finder&amp;quot; Finder&lt;/a&gt; (&lt;a href=&quot;https://github.com/open-innovations/warm-spaces&quot;&gt;code on Github&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Giles has been experimenting with &lt;a href=&quot;https://dvc.org&quot;&gt;DVC&lt;/a&gt; to catalogue commonly used reference data. He&#39;s created a &lt;a href=&quot;https://github.com/open-innovations/reference-data&quot;&gt;reference library&lt;/a&gt; of data we use frequently. He&#39;s also using DVC to manage pipelines of data processing in our work with &lt;a href=&quot;https://data.leeds2023.co.uk&quot;&gt;Leeds 2023&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Stuart has been building a &lt;a href=&quot;https://open-innovations.org/projects/hexmaps/builder.html?maps/uk-wards-2022.hexjson&amp;amp;colourscale=Viridis8&amp;amp;borders=false&amp;amp;attribute=Attributes&amp;amp;labels=false&quot;&gt;hexmap of all the wards in the UK&lt;/a&gt;. &lt;a href=&quot;https://github.com/odileeds/hexmaps/tree/gh-pages/maps/uk-wards-2022&quot;&gt;Can you help?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Michelle, Taz and Giles have made the move to &lt;a href=&quot;https://www.notion.so&quot;&gt;Notion&lt;/a&gt; to manage our projects and pipeline, and for some internal note-sharing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;ve been attending or preparing for events...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stuart attended an ONS virtual meet-up about their &lt;a href=&quot;https://climate-change.data.gov.uk/&quot;&gt;Climate Change dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paul attended the launch of the University of Leeds Knowledge Equity Network. Here&#39;s &lt;a href=&quot;https://threadreaderapp.com/thread/1593160313977057280.html&quot;&gt;his (short) tweet thread about the event&lt;/a&gt;. He was asked to deliver &lt;a href=&quot;https://docs.google.com/presentation/d/1iuaeFid9iUzgbdN4690ZmTorVhX3svfvyZJsC1hlh_Q/edit?usp=drivesdk&quot;&gt;a provocative presentation on Innovating with Data&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Christian and Kathryn have been preparing for the launch of the &lt;a href=&quot;https://open-innovations.org/blog/2022-10-06-northern-economic-data-user-group&quot;&gt;Northern Economic Data user group&lt;/a&gt; next week. &lt;a href=&quot;https://www.eventbrite.co.uk/e/northern-economic-data-user-group-tickets-433439849257&quot;&gt;Sign up to secure your place&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;ve been thinking, researching and reflecting...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dan has been experimenting with &lt;a href=&quot;https://data.leeds2023.co.uk/report/arts-council/&quot;&gt;visualisations of Arts Council England grants data&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Christian spent a lot of Thursday &lt;a href=&quot;https://threadreaderapp.com/thread/1593226527294263296.html&quot;&gt;picking through the autumn statement&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Giles came across this set of &lt;a href=&quot;https://dashboarddesignpatterns.github.io/patterns.html&quot;&gt;design patterns for dashboards&lt;/a&gt; looks worth a read. We are doing lot of that sort of thing at the moment, and are always looking for interesting ideas. (Via &lt;a href=&quot;https://mastodon.me.uk/@davechild&quot;&gt;@davechild on mastodon.me.uk&lt;/a&gt;.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And finally...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stuart and Giles built &lt;a href=&quot;https://weeknotes.open-innovations.org&quot;&gt;this website to present these weeknotes&lt;/a&gt;. You can even &lt;a href=&quot;https://github.com/open-innovations/weeknotes&quot;&gt;take a look at the code&lt;/a&gt; we used to build it.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2022-11-18/"/>
+  <category term="weeknotes"/>
+  <published>2022-11-18 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2022&lt;/a&gt;
+  </rights>
+</entry><entry>
+  <id>https://weeknotes.open-innovations.org/week/2022-12-09/</id>
+  <title>Weeknotes #4</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;Brief headline-style weeknotes this week. It&#39;s been a busy one, and to be honest
+the editor forgot to remind people before this morning!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stuart has progressed the &lt;a href=&quot;https://open-innovations.org/blog/2022-11-24-finding-a-warm-space-this-winter&quot;&gt;Warm Spaces
+catalogue&lt;/a&gt;
+and we now re-list 7084 warm spaces from 59 separate directories. We&#39;ve shared this with
+various Leeds media outlets, and have been having some great chats with people online.&lt;/li&gt;
+&lt;li&gt;Giles updated our &lt;a href=&quot;https://github.com/open-innovations/reference-data&quot;&gt;reference data
+repository&lt;/a&gt; to include our
+cut down version of the latest ONS Postcode Directory.&lt;/li&gt;
+&lt;li&gt;Giles and Stuart have also been progressing the Register of Members Financial
+Interest work for UK Parliament, and were delighted to have been mentioned
+(and thanked) in &lt;a href=&quot;https://ukparliament.github.io/ontologies/meta/weeknotes/2022/48/#interests-financial-and-otherwise&quot;&gt;their weeknotes from last
+week&lt;/a&gt;.
+Thanks Michael!&lt;/li&gt;
+&lt;li&gt;Kathryn and Ruby have hosted some new clients using our space to run
+innovation events: Arla Foods, NDL software, Freixenet Copestick. You could
+join them! &lt;a href=&quot;https://open-innovations.org/services/events/&quot;&gt;Get in touch to enquire about hiring the innovation
+space&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;https://opendatasaveslives.org/events/session-36-AI&quot;&gt;Open Data Saves Lives AI in
+Healthcare&lt;/a&gt; session was
+really well attended. We saw our highest number of people registered yet, and
+heard about some great AI models. The recording is
+now online - watch &lt;a href=&quot;https://opendatasaveslives.org/news/&quot;&gt;this space&lt;/a&gt; for an upcoming blog post.&lt;/li&gt;
+&lt;li&gt;Paul attended the Labour Party press conference at the University Of Leeds&#39; Nexus innovation space.&lt;/li&gt;
+&lt;li&gt;We&#39;re in the process of renewing &lt;a href=&quot;https://open-innovations.org/services/sponsors/&quot;&gt;our
+sponsorships&lt;/a&gt;. This week,
+we&#39;ve been talking to TPXImpact.&lt;/li&gt;
+&lt;li&gt;...and finally... we&#39;re hiring! Are you a technical consultant with data and
+code skills, who would like to join our small but perfectly formed team? Watch
+this space - job vacancy coming soon!&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2022-12-09/"/>
+  <category term="weeknotes"/>
+  <published>2022-12-09 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2022&lt;/a&gt;
+  </rights>
+</entry><entry>
+  <id>https://weeknotes.open-innovations.org/week/2022-12-02/</id>
+  <title>Weeknotes #3</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;The Open Innovations Christmas party took place on Thursday, so your editor is typing whilst nursing a large and strong cup of coffee.&lt;/p&gt;
+&lt;p&gt;We&#39;re building a prototype tool for the UK Parliamentary Digital Service. The purpose of the tool is to show what information people can glean from the Register(s) of Members&#39; Financial Interests. Stuart and Giles had a &amp;quot;splendid&amp;quot; (actual client feedback klaxon) show and tell with the team to check our early-stage prototype was heading the right direction. The good news is that it is, so expect to see more on this soon!&lt;/p&gt;
+&lt;p&gt;You can’t spell &lt;strong&gt;fes&lt;/strong&gt;tive without FES! It’s the time of year when National Grid publish their updated Future Energy Scenarios and the DSOs publish their Distributed FES in response. We’re again helping National Grid and two of the DSOs (Northern Powergrid and UK Power Networks) publish interactive FES/DFES visualisations, meaning that interested parties can readily compare between the energy demands coming up in the next 30 years.&lt;/p&gt;
+&lt;p&gt;Dan and Taz have been working on more LEEDS 2023 developments. The Impact dashboard which brings together key information on a singe page is shaping up nicely. This will give the LEEDS 2023 team access to critical data at their fingertips to support decision making. We’ve also made some improvements to &lt;a href=&quot;https://data.leeds2023.co.uk/metrics/volunteers/&quot;&gt;the volunteering metrics page&lt;/a&gt;, including applying new colour scales to hexmaps and adding more data about where volunteers come from across West Yorkshire.&lt;/p&gt;
+&lt;p&gt;Christian is furiously writing documentation for the economic dashboard, in the hope and expectation that people start using the tool soon.&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/&quot;&gt;Warm spaces finder directory&lt;/a&gt; and &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/find&quot;&gt;tool&lt;/a&gt; has been shared with sponsors and got some very positive feedback, and requests from external orgs/individuals to be added.&lt;/p&gt;
+&lt;p&gt;The OI team is rarely all in the same place at the same time. We&#39;re consciously trying to address the lack of opportunity to  by agreeing on a Wednesday afternoon co-working session. We&#39;re starting to explore using &lt;a href=&quot;https://gather.town&quot;&gt;Gather&lt;/a&gt; to facilitate this. Gather is a playful and proximity-based collaboration tool: you control an avatar which walks around a virtual office space. It&#39;s interesting how this puts some of us into a different mode of interaction than YATM™ (Yet Another Teams Meeting).&lt;/p&gt;
+&lt;p&gt;In events news, the &lt;a href=&quot;https://opendatasaveslives.org/events/session-36-AI&quot;&gt;Open Data Saves Lives on 7th Dec&lt;/a&gt; is sold out! You&#39;ll be able to catch up with the recording after the event, so don&#39;t panic. There&#39;s also a date for &lt;a href=&quot;https://www.eventbrite.co.uk/e/ned-northern-economic-data-user-group-tickets-474607041437&quot;&gt;the next Northern Economic Data user group&lt;/a&gt;, which is 23rd February 2023. Mark your calendars!&lt;/p&gt;
+&lt;p&gt;Giles has been working on generalising a set of &lt;a href=&quot;https://data.youthfuturesfoundation.org/sample/&quot;&gt;visualisations we developed for Youth Futures Foundation&lt;/a&gt;. They&#39;re a bit specific to YFF in their current form, but with a bit of work we&#39;ll be able to roll them out to other projects really quickly!&lt;/p&gt;
+&lt;p&gt;We&#39;re keen to keep the carbon footprint of our code as small as possible. Giles was therefore interested to come across the &lt;a href=&quot;https://greensoftware.foundation/&quot;&gt;Green Software Foundation&lt;/a&gt;. There are a couple of particularly useful bits of information. Firstly, the &lt;a href=&quot;https://principles.green/&quot;&gt;Principles of Green Software Engineering&lt;/a&gt; is a good summary of the sort of things we think about. There&#39;s also useful list of &lt;a href=&quot;https://github.com/Green-Software-Foundation/awesome-green-software&quot;&gt;Green Software&lt;/a&gt;. As an aside, the home page the Green Software Foundation could do with some work, given the results we found by running &lt;a href=&quot;https://www.websitecarbon.com/website/greensoftware-foundation/&quot;&gt;it through the Website Carbon Caculator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Everybody (well, &lt;em&gt;some&lt;/em&gt; people) are talking about the fediverse. Giles found &lt;a href=&quot;https://escapingtech.com/tech/opinions/i-was-wrong-about-mastodon-moderation.html&quot;&gt;Marcus Hutchin&#39;s analysis of how the design of Mastodon allows moderation to scale&lt;/a&gt; to be an interesting read.&lt;/p&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2022-12-02/"/>
+  <category term="weeknotes"/>
+  <published>2022-12-02 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2022&lt;/a&gt;
+  </rights>
+</entry><entry>
+  <id>https://weeknotes.open-innovations.org/week/2023-01-06/</id>
+  <title>Weeknotes #6</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;This has been a week of returning to work after a couple of weeks&#39; holiday.
+This will be a consequently short weeknote.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After a mid-week start, we had a good couple of planning sessions on
+forthcoming projects, and have formulated appropriate plans for kicking off /
+revitalising / closing down.&lt;/li&gt;
+&lt;li&gt;Christian has started work on a Tax Devolution project for Northern Powerhouse
+Partnership. More information on this with a kick-off blog next week.&lt;/li&gt;
+&lt;li&gt;Our next #OpenDataSavesLives session will be on &lt;a href=&quot;https://opendatasaveslives.org/events/session-37-health-inequalities&quot;&gt;1st March 12pm&lt;/a&gt;, coming back to the theme of Health Inequalities after the success of our &lt;a href=&quot;https://opendatasaveslives.org/events/uxnufql80Bgj&quot;&gt;last session on the topic in October&lt;/a&gt;. Don&#39;t forget to &lt;a href=&quot;https://www.eventbrite.co.uk/e/opendatasaveslives-meeting-tickets-507526313867&quot;&gt;sign up for the session via Eventbrite&lt;/a&gt; - more information to follow soon.&lt;/li&gt;
+&lt;li&gt;Stuart has progressed work on the &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/&quot;&gt;Warm Spaces finder&lt;/a&gt;,
+and there are now 11067 warm spaces listed from 116 separate directories.
+There are still gaps, so please help out if you can!&lt;/li&gt;
+&lt;li&gt;We&#39;re hiring for an experienced technical consultant who can do bits of data
+and code, whilst working in the flexible and agile way that our small team
+does. Take a look at the the
+&lt;a href=&quot;https://open-innovations.org/blog/2022-12-13-vacancy-data-projects-technical-consultant&quot;&gt;blog post that describes the role&lt;/a&gt;
+and get in touch if you&#39;re interested!&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2023-01-06/"/>
+  <category term="weeknotes"/>
+  <published>2023-01-06 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2023&lt;/a&gt;
+  </rights>
+</entry><entry>
+  <id>https://weeknotes.open-innovations.org/week/2022-11-25/</id>
+  <title>Weeknotes #2</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;The second weeknotes! We found it really useful to have written last week&#39;s notes, so we&#39;re back again. It proved to have been a positive reflective practice and way of sharing stuff across the team, let alone our (doubtless) extensive readership. What&#39;s been particularly nice for this week&#39;s editor is that people have chipped in throughout the week by updating the repo and suggested stuff that we should mention&lt;/p&gt;
+&lt;p&gt;Some things we&#39;ve worked on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Taz, Michelle and Giles held a retrospective on our &lt;a href=&quot;https://data.youthfuturesfoundation.org&quot;&gt;Youth Futures Foundation data site project&lt;/a&gt;. We learned a lot and built a lot of potentially sharable components in this project, so quite a lot to discuss! This will definitely help with similar projects in the future.&lt;/li&gt;
+&lt;li&gt;Stuart has continued working on the &lt;a href=&quot;https://open-innovations.org/blog/2022-11-24-finding-a-warm-space-this-winter&quot;&gt;Warm Spaces directory of directories&lt;/a&gt; to add more search/filtering options to &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/find&quot;&gt;our lightweight warm spaces search tool&lt;/a&gt;. If you know of any more &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/find&quot;&gt;directories of warm spaces&lt;/a&gt; that we are missing, let us know.&lt;/li&gt;
+&lt;li&gt;Giles and Stuart have made some progress on a new project with the UK Parliament Digital Service. More to come soon!&lt;/li&gt;
+&lt;li&gt;Dan and Giles have made more changes to the &lt;a href=&quot;https://data.leeds2023.co.uk&quot;&gt;Leeds 2023 data microsite&lt;/a&gt;. There is now a page dedicated to the &lt;a href=&quot;https://data.leeds2023.co.uk/metrics/social-media/&quot;&gt;Social Media metrics&lt;/a&gt;. &lt;a href=&quot;https://data.leeds2023.co.uk/metrics/ballot/&quot;&gt;The Awakening ballot metrics page&lt;/a&gt; has also seen a bit of an update to include details of group ballots and numbers of seats allocated.
+Have you &lt;a href=&quot;https://leeds2023.co.uk/whats-on/the-awakening/enter-the-ballot&quot;&gt;submitted your ballot entry&lt;/a&gt;?
+Giles and Michelle also made more progress with some additional datasets for Leeds 2023.&lt;/li&gt;
+&lt;li&gt;Paul has been reflecting with the team on the &lt;a href=&quot;https://spotlight.leeds.ac.uk/knowledge-equity-network/index.html&quot;&gt;KEN event last week&lt;/a&gt; and thinking about how we can support its development. The overall impression that he took away is that it was really refreshingly proactive session, which is really well aligned with our &lt;em&gt;#RadicallyOpen&lt;/em&gt; way of doing things!&lt;/li&gt;
+&lt;li&gt;Christian has published a &lt;a href=&quot;https://open-innovations.org/blog/2022-11-21-knaresborough-economic-dashboard&quot;&gt;blog post about the Economic Data Dashboard (EDD)&lt;/a&gt;. The EDD is an open-source economic data tool that built for Knaresborough.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The space has been busy too, and we&#39;ve been preparing for some forthcoming events:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We&#39;ve had some new clients in the space this week including Jordan Dorset Ryvita. As an aside, it&#39;s notable that 100% of clients who came in during the week requested vegan food.&lt;/li&gt;
+&lt;li&gt;We met with &lt;a href=&quot;https://www.digital-solutions.uk/&quot;&gt;the NERC Digital Solutions Hub team&lt;/a&gt; this week and got them involved in &lt;em&gt;#PlanetData&lt;/em&gt;. The team is based at The University of Manchester, and have created the Hub to make better use data from the &lt;a href=&quot;https://www.ukri.org/councils/nerc/&quot;&gt;Natural Environment Research Council (NERC)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We had the first meeting of the Northern Economic Data User Group in the space this week. You can read some of what we got up to, and keep up-to-date on it all, on the &lt;a href=&quot;https://open-innovations.org/projects/northern-economic-data-user-group/&quot;&gt;project hub page&lt;/a&gt;. Contact &lt;a href=&quot;mailto:christian.spence@open-innovations.org&quot;&gt;Christian Spence&lt;/a&gt; more info.&lt;/li&gt;
+&lt;li&gt;We&#39;re working on the agenda for the next &lt;a href=&quot;https://opendatasaveslives.org/events/session-36-AI&quot;&gt;Open Data Saves Lives session on 7th December&lt;/a&gt;. It&#39;s entitled AI in Health. Sign up now!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other news:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tom attended the &lt;a href=&quot;https://www.greatnorthernconference.co.uk/&quot;&gt;Great Northern Conference&lt;/a&gt;. It was hosted in Manchester, and he noted &lt;a href=&quot;https://twitter.com/thomasforth/status/1595344290301050880?s=20&amp;amp;t=LbnzDR694G2mQaVGEmh6Gw&quot;&gt;a minor cultural victory on display at the tea station&lt;/a&gt;. Judging by his &lt;a href=&quot;https://twitter.com/search?q=(from%3Athomasforth)%20until%3A2022-11-24%20since%3A2022-11-23&amp;amp;src=typed_query&quot;&gt;twitter feed for the day&lt;/a&gt;, there was lots of interesting talk about regional devolution and transport (or the lack of it).&lt;/li&gt;
+&lt;li&gt;We are up for 2 awards. Firstly, we&#39;re shortlisted in the Data categfory of the &lt;a href=&quot;https://openuk.uk/openuk-awards/&quot;&gt;OpenUK Awards&lt;/a&gt;. Paul and Kathryn are off the awards ceremony next week. Wish us luck! We&#39;re also nominated on the &lt;a href=&quot;https://www.netzero50.uk/vote&quot;&gt;Net Zero 50 List 2022&lt;/a&gt;. You can vote for us in the Net Zero Non-Profit category!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other miscellaneous thoughts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Giles read the &lt;a href=&quot;https://newsletter.danhon.com/archive/s13e23-colliders-speedrunning-benevolent/&quot;&gt;most recent newsletter from Dan Hon&lt;/a&gt; with interest. Dan is a great writer, and this is a really thought-provoking trawl through the current state of the Twitter diaspora, and the challenges of transplanting a social network from one place to another, as is currently happening with the uptake of the Fediverse (and Mastodon in particular). There are growing pains, sure, but also structural risks and a real danger that the network will impose undue bias on the discourse that it is supposed to support.&lt;/li&gt;
+&lt;li&gt;On which topic... we hold daily-ish standups, which we run as hybrid sessions where we go round the table talking about things we&#39;re working on, plans and blockers. Stuart had been tracking the order of speaking, and realised we might have been introducing some inadvertent bias. We started using &lt;a href=&quot;https://www.random.org/lists/&quot;&gt;a list randomiser&lt;/a&gt; to attempt to address this.&lt;/li&gt;
+&lt;li&gt;This article on &lt;a href=&quot;https://uxdesign.cc/how-to-write-an-image-description-2f30d3bf5546&quot;&gt;how to write an image description&lt;/a&gt; contains some great pointers to writing better alt text on images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...and finally, Giles has been tinkering with &lt;a href=&quot;https://weeknotes.open-innovations.org&quot;&gt;the weeknotes site&lt;/a&gt; a bit more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, the site is now also consumable as an &lt;a href=&quot;https://validator.w3.org/feed/docs/atom.html&quot;&gt;Atom feed&lt;/a&gt;, so you can read what we&#39;ve been up to get access via a feed reader like it&#39;s 2008 or something. Simply paste the &lt;a href=&quot;/atom.xml&quot;&gt;atom feed link&lt;/a&gt; into your feedreader, and away you go. The &lt;a href=&quot;https://feedly.com&quot;&gt;Feedly reader&lt;/a&gt; is a good choice, but other options are available.&lt;/li&gt;
+&lt;li&gt;Lastly, there are social media tags, so sharing links should be a bit more attractive. Checking this is made really simple with the &lt;a href=&quot;https://metatags.io/&quot;&gt;Metatags tool&lt;/a&gt; (with an honourable mention for &lt;a href=&quot;https://www.opengraph.xyz/&quot;&gt;opengraph.xyz&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2022-11-25/"/>
+  <category term="weeknotes"/>
+  <published>2022-11-25 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2022&lt;/a&gt;
+  </rights>
+</entry><entry>
+  <id>https://weeknotes.open-innovations.org/week/2022-12-16/</id>
+  <title>Weeknotes #5</title>
+  <updated>2023-01-12 16:08:05</updated>
+  <content type="html">&lt;p&gt;&lt;a href=&quot;https://open-innovations.org/advent/card-2022/&quot;&gt;Seasons greetings from the Open Innovations team&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stuart has added another 23 directories of warm spaces - mostly from local authorities - to the &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/&quot;&gt;Warm Spaces directory of directories&lt;/a&gt; taking the number of &lt;a href=&quot;https://open-innovations.github.io/warm-spaces/find&quot;&gt;searchable warm spaces&lt;/a&gt; up to 8431. It has crossed our minds that someone could take our &lt;a href=&quot;https://github.com/open-innovations/warm-spaces/blob/main/docs/data/places.json&quot;&gt;compiled, geo-coded, JSON of warm space offers&lt;/a&gt; and compare this with the &lt;a href=&quot;https://www.gov.uk/government/consultations/indices-futures-updating-the-english-indices-of-deprivation-iod-consultation/indices-futures-updating-the-english-indices-of-deprivation-iod-consultation#living-environment-deprivation-domain&quot;&gt;Indoors Sub-domain Rank&lt;/a&gt; of the &lt;a href=&quot;https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019&quot;&gt;English indices of deprivation 2019&lt;/a&gt; to find out if offers are in the areas with the most need. Perhaps creating something like &lt;a href=&quot;https://raw.githubusercontent.com/OpenDataManchester/indices-of-deprivation/master/imd19/lava-lamp-plots/IMD19%20A2%20FINAL.png&quot;&gt;Open Data Manchester&#39;s lava lamp plot&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Giles &amp;amp; Stuart chatted with Parliamentary library people about our project on the Register of Members Interests.&lt;/li&gt;
+&lt;li&gt;Work has continued supporting the Distribution Future Energy Scenario (DFES) visualisations for both Northern Powergrid and UK Power Networks by fixing bugs that have arisen from edge cases in the data and adding some new options. Because we are re-using much of the core code between the two DFES projects (and the FES project for National Grid), it means we can apply the improvements to both.&lt;/li&gt;
+&lt;li&gt;An enthusiastic student from CSU Sacramento got in touch with us about our &lt;a href=&quot;https://odileeds.github.io/osmedit/bins/&quot;&gt;bins of the world&lt;/a&gt; visualisation. They are taking inspiration from it to map the trash cans and recycling bins on campus using OpenStreetMap and then showing the results on a map (they will probably use the &lt;a href=&quot;http://overpass-turbo.eu/&quot;&gt;Overpass API&lt;/a&gt; results &lt;a href=&quot;https://overpass-api.de/api/interpreter?data=%5Bbbox%3A38.55288093010608%2C-121.43398761749268%2C38.56804900435959%2C-121.41134977340698%5D%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(node%5B%22amenity%22%3D%22waste_basket%22%5D%3B)%3Bout%3B%3E%3Bout%20skel%20qt%3B%0A&quot;&gt;e.g. amenity=waste_basket within a bounding box around their campus&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Daniel has created &lt;a href=&quot;https://open-innovations.github.io/arts-council-england-funding/&quot;&gt;a hex map of Arts Council England funding&lt;/a&gt;. Paul has been using this to speak to lots of people about cultural data, such as in &lt;a href=&quot;https://twitter.com/paulcconnell/status/1603101121324752899&quot;&gt;this tweet exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paul has been working with to Stuart Clarke from Leeds Digital Festival about helping them to update &lt;a href=&quot;https://paceline.digital/leeds-tech-map/&quot;&gt;The Leeds Tech Map&lt;/a&gt; in 2023.&lt;/li&gt;
+&lt;li&gt;Taz and Dan have been working on updates to the Leeds Digital Festival data microsite over the last couple of months which is looking
+in good shape. We&#39;ve added data from their September 2022 festival, created an overall impact dashboard and visualised social media data over
+the year. Here&#39;s the &lt;a href=&quot;https://open-innovations.github.io/leeds-digital-festival-data/&quot;&gt;microsite&lt;/a&gt; and &lt;a href=&quot;https://github.com/open-innovations/leeds-digital-festival-data&quot;&gt;repo&lt;/a&gt;, with a blog post to follow soon!&lt;/li&gt;
+&lt;li&gt;Giles has been thinking about the foundations of the tech work we do, and has created a &lt;a href=&quot;https://github.com/open-innovations/oi-lume-template/&quot;&gt;template Open Innovations site for the Lume framework we&#39;ve started using&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Joseph Rowntree Foundation have been in touch with Paul about working with us to create the Data Infrastructure for North England.&lt;/li&gt;
+&lt;li&gt;Christian has been in kick-off meetings and a data workshop with Leeds City Council as we look to answer some of their commonly-asked but hard-to-find-out questions over the coming year. Keep an eye out for our launch blog post in the new year.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  <link rel="alternate" href="https://weeknotes.open-innovations.org/week/2022-12-16/"/>
+  <category term="weeknotes"/>
+  <published>2022-12-16 00:00:00</published>
+  <rights type="html">
+    &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;&amp;copy; CC BY 4.0 Open Innovations 2022&lt;/a&gt;
+  </rights>
+</entry>
+
+</feed>
