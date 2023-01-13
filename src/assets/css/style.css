@@ -128,3 +128,9 @@ ul > li + *, ul > li > ul { margin-top: 0.5em; }
 .elsewhere li a { line-height: 0; display: block; }
 footer .address { margin-top: 1em; }
 footer a { color: inherit; }
+
+blockquote {
+  padding-left: 1rem;
+  border-left: 5px solid #555;
+  font-style: italic;
+}
