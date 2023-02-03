@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://auth.open-innovations.org # Path to ext auth provider
 
-media_folder: assets/uploads
+media_folder: src/assets/uploads
 logo_url: https://open-innovations.org/resources/images/logos/oi-square.svg
 
 collections:

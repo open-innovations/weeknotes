@@ -1,3 +1,4 @@
+import imagick from "lume/plugins/imagick.ts";
 import lume from "lume/mod.ts";
 import base_path from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
@@ -29,6 +30,7 @@ site.use(postcss({
   keepDefaultPlugins: true,
 }));
 site.use(sitemap());
+site.use(imagick());
 
 ['CNAME', '.nojekyll'].forEach(f => site.copy(f));
 
