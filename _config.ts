@@ -8,15 +8,20 @@ import pagefind from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 
+import footnote from "npm:markdown-it-footnote";
+
 // PostCSS Plugins
 import cssnano from "npm:cssnano@^5";
 
+const markdown = {
+  plugins: [footnote],
+};
 const search = { returnPageData: true };
 
 const site = lume({
   src: './src',
   location: new URL("https://weeknotes.open-innovations.org"),
-}, { search });
+}, { markdown, search });
 
 site.use(base_path());
 site.use(metas());

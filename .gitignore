@@ -4,4 +4,7 @@ _site/
 # Binaries
 _bin/
 
+# Image Magick working directory
+src/_cache/
+
 deno.lock
