@@ -1,4 +1,4 @@
-function getNextFriday(dateString?: string = undefined) {
+function getNextFriday(dateString?: string) {
   const nextFriday = dateString ? new Date(dateString) : new Date();
   // Zero out the hours
   nextFriday.setUTCHours(0, 0, 0, 0);
