@@ -4,6 +4,7 @@
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
     "serve": "deno task lume -s",
+    "create": "deno task lume new weeknote",
     "fix_lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A --reload -"
   }
 }
