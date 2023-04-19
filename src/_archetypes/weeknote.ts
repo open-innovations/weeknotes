@@ -18,7 +18,7 @@ export default function (week_ending: string) {
   return {
     path: `/weeknotes/${ date }.md`,
     content: {
-      week_ending: date,
+      week_ending: new Date(date),
       draft: true,
       title: `Weeknotes #${ index }`,
       description: "TODO Put a broad summary of the contents here. Used in social media links etc. No more than 2 lines. It's for this https://ahrefs.com/blog/seo-meta-tags/#meta-description"
