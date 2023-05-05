@@ -1,0 +1,15 @@
+{#
+---
+js: |
+  addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('a[id]').forEach((target) => {
+      target.addEventListener('click', function () {
+        const url = new URL(location);
+        url.hash = this.id;
+        console.log(url.toString());
+      });
+    });
+  });
+---
+#}
+<a id="{{ ref }}" href="#{{ ref }}">&#128279;</a>

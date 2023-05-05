@@ -9,3 +9,7 @@
   list-style: none;
   padding-left: 0;
 }
+
+a[href^="#"] {
+  text-decoration: none;
+}
