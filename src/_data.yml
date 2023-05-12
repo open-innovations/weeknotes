@@ -1,12 +1,14 @@
 layout: template/base.njk
 date: Git Last Modified
 
+description: Weeknotes from the team at Open Innovations. Find out what we have been up to.
+
 # Automatically adds meta and social tags 
 # See https://lume.land/plugins/metas/
 metas:
   site: Open Innovations weeknotes
   title: "=title"
-  description: Weeknotes from the team at Open Innovates. Find out what we have been up to.
+  description: "=description"
   image: https://open-innovations.org/resources/images/logos/oi-square.png
   twitter: openinnovates
   lang: en
