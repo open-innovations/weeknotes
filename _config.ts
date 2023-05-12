@@ -13,6 +13,7 @@ import footnote from "npm:markdown-it-footnote";
 
 // PostCSS Plugins
 import cssnano from "npm:cssnano@^5";
+import { Page, SiteEvent } from "https://deno.land/x/lume@v1.15.0/core.ts";
 
 const markdown = {
   plugins: [footnote],
@@ -40,5 +41,31 @@ site.use(imagick());
 site.use(svgo());
 
 ['CNAME', '.nojekyll'].forEach(f => site.copy(f));
+
+/**
+ * Set the latestDescription data item on the page.
+ */
+let latestDescription: string | undefined = undefined;
+
+/**
+ * Before the render happens, work out the most recent weeknote,
+ * then store the description in latest description
+ */
+site.addEventListener("beforeRender", (event: SiteEvent) => {
+  if (!event.pages) return;
+  const latestPage = event.pages
+    .filter(page => page.data.tags?.includes('weeknote') && page.data.draft !== true)
+    .sort((a, b) => a.data.week_ending > b.data.week_ending ? 1 : -1)
+    .pop();
+  if (!latestPage) return;
+  latestDescription = latestPage.data.description;
+});
+
+/**
+ * Finally make latest description available in each html page context
+ */
+site.preprocess(['.html'], (page) => {
+  page.data.latestDescription = latestDescription;
+})
 
 export default site;
