@@ -7,7 +7,7 @@ title: Weeknotes
 
 <h2>Weeknote for {{ latestWeeknote.week_ending | date('HUMAN_DATE') }}</h2>
 
-{{ latestWeeknote.content | md | safe }}
+{{ latestWeeknote.content | njk({ comp: comp }) | md | safe }}
 
 
 <h2>Earlier weeknotes</h2>
