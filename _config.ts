@@ -7,6 +7,7 @@ import netlify_cms from "lume/plugins/netlify_cms.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 import sitemap from "lume/plugins/sitemap.ts";
+import svgo from "lume/plugins/svgo.ts";
 
 import footnote from "npm:markdown-it-footnote";
 
@@ -36,6 +37,7 @@ site.use(postcss({
 }));
 site.use(sitemap());
 site.use(imagick());
+site.use(svgo());
 
 ['CNAME', '.nojekyll'].forEach(f => site.copy(f));
 

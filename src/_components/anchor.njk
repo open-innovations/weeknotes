@@ -1,6 +1,13 @@
-{#
 ---
+css: |
+  .anchor svg {
+    height: auto;
+    width: 1em;
+    vertical-align: baseline;
+    display: inline;
+  }
 js: |
+  /*
   addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('a[id]').forEach((target) => {
       target.addEventListener('click', function () {
@@ -10,6 +17,7 @@ js: |
       });
     });
   });
+  */
 ---
-#}
-<a id="{{ ref }}" href="#{{ ref }}">&#128279;</a>
+
+<a class="anchor" id="{{ ref }}" href="#{{ ref }}">{% include "images/link.svg" %}</a>
