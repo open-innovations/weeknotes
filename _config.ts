@@ -21,18 +21,18 @@ const markdown = {
 const search = { returnPageData: true };
 
 const site = lume({
-  src: './src',
+  src: "./src",
   location: new URL("https://weeknotes.open-innovations.org"),
 }, { markdown, search });
 
 site.use(base_path());
 site.use(metas());
 site.use(date());
-if (Deno.env.get('ENABLE_NETLIFY') !== undefined) site.use(netlify_cms());
+if (Deno.env.get("ENABLE_NETLIFY") !== undefined) site.use(netlify_cms());
 site.use(pagefind());
 site.use(postcss({
   plugins: [
-    cssnano({ preset: 'default' }),
+    cssnano({ preset: "default" }),
   ],
   keepDefaultPlugins: true,
 }));
@@ -40,7 +40,7 @@ site.use(sitemap());
 site.use(imagick());
 site.use(svgo());
 
-['CNAME', '.nojekyll'].forEach(f => site.copy(f));
+["CNAME", ".nojekyll"].forEach((f) => site.copy(f));
 
 /**
  * Set the latestDescription data item on the page.
@@ -54,7 +54,9 @@ let latestDescription: string | undefined = undefined;
 site.addEventListener("beforeRender", (event: SiteEvent) => {
   if (!event.pages) return;
   const latestPage = event.pages
-    .filter(page => page.data.tags?.includes('weeknote') && page.data.draft !== true)
+    .filter((page) =>
+      page.data.tags?.includes("weeknote") && page.data.draft !== true
+    )
     .sort((a, b) => a.data.week_ending > b.data.week_ending ? 1 : -1)
     .pop();
   if (!latestPage) return;
@@ -64,8 +66,8 @@ site.addEventListener("beforeRender", (event: SiteEvent) => {
 /**
  * Finally make latest description available in each html page context
  */
-site.preprocess(['.html'], (page) => {
+site.preprocess([".html"], (page) => {
   page.data.latestDescription = latestDescription;
-})
+});
 
 export default site;
