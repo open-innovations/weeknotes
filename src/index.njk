@@ -5,16 +5,17 @@ metas:
 ---
 {% set latestWeeknote = search.page('weeknote', 'week_ending=desc') %}
 
-<p>You can read the latest weeknote below, or <a href="/archive/">scroll</a> or <a href="/search/">search</a> through the archive.
+<p>You can find the latest weeknote below, or <a href="/archive/">scroll</a> or <a href="/search/">search</a> through the archive.
 
 <h2><a href="{{ latestWeeknote.url }}">Weeknote for {{ latestWeeknote.week_ending | date('HUMAN_DATE') }}</a></h2>
 
-{{ latestWeeknote.content | njk({ comp: comp }) | md | safe }}
+{{ latestWeeknote.description | md | safe }}
+{# {{ latestWeeknote.content | njk({ comp: comp }) | md | safe }} #}
 
 
 <h2>Earlier weeknotes</h2>
 <ol class="no-marker">
-{% for page in search.pages('weeknote', 'week_ending=desc', 4) %}
+{% for page in search.pages('weeknote url!=' + latestWeeknote.url, 'week_ending=desc', 4) %}
   <li><a href='{{ page.url }}'>{{ page.week_ending | date('DATE') }}: {{ page.title or page.week_ending | date('HUMAN_DATE') }}</a></li>
 {% endfor %}
 <li><a href="/archive/">More...</a></li> 
