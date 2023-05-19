@@ -7,7 +7,7 @@ metas:
 
 <p>You can read the latest weeknote below, or <a href="/archive/">scroll</a> or <a href="/search/">search</a> through the archive.
 
-<h2>Weeknote for {{ latestWeeknote.week_ending | date('HUMAN_DATE') }}</h2>
+<h2><a href="{{ latestWeeknote.url }}">Weeknote for {{ latestWeeknote.week_ending | date('HUMAN_DATE') }}</a></h2>
 
 {{ latestWeeknote.content | njk({ comp: comp }) | md | safe }}
 
