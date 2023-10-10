@@ -3,7 +3,7 @@ url: /rss.xml
 layout: template/rss.njk
 id: https://weeknotes.open-innovations.org/
 ---
-{% for entry in search.pages('weeknote', 'date=asc') -%}
+{% for entry in search.pages('weeknote', 'date=desc', 10) -%}
   <item>
     <title>
       {{ entry.title or entry.date | date('HUMAN_DATE') }}
@@ -11,7 +11,7 @@ id: https://weeknotes.open-innovations.org/
     <link>{{ entry.url | url(true) }}</link>
 	<guid isPermaLink="true">{{ entry.url | url(true) }}</guid>
     <description><![CDATA[
-      {{ entry.content | md | safe}}
+      {{ entry.content | md | removeNunjucks | safe }}
     ]]></description>
     <pubDate>{{ entry.week_ending | date('iii, dd MMM yyyy HH:mm:ss XXXXX') }}</pubDate>
   </item>

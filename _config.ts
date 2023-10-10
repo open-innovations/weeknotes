@@ -25,6 +25,9 @@ const site = lume({
   location: new URL("https://weeknotes.open-innovations.org"),
 }, { markdown, search });
 
+site.filter('removeNunjucks', (value) => { return value.replace(/\{\{ ?.*? ?\}\} ?/g,""); });
+
+
 site.use(base_path());
 site.use(metas());
 site.use(date());
@@ -41,7 +44,6 @@ site.use(imagick());
 site.use(svgo());
 
 ["CNAME", ".nojekyll"].forEach((f) => site.copy(f));
-
 /**
  * Before the render happens, work out the most recent weeknote,
  * then store the description in latest description for all pages
@@ -58,5 +60,14 @@ site.preprocessAll([".html"], (pages) => {
     page.data.latestDescription = latestPage.data.description
   );
 });
+
+site.addEventListener("beforeBuild", () => {
+  console.log("The build is about to start");
+  console.time("dataLoad");
+});
+site.addEventListener("beforeRender", () => {
+  console.timeEnd("dataLoad");
+  console.log("All pages and data loaded");
+})
 
 export default site;
