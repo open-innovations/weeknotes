@@ -2,9 +2,9 @@ name: Generate blank weeknote
 
 'on':
   workflow_dispatch: {}
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: '17 2 * * 6'
+  # schedule:
+  #   # * is a special character in YAML so you have to quote this string
+  #   - cron: '17 2 * * 6'
 
 jobs:
   generate:
